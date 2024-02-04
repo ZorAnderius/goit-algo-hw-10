@@ -1,6 +1,6 @@
 import pulp
 
-def task_1():
+def task_1() -> None:
     model = pulp.LpProblem('Maximize_production', pulp.LpMaximize)
 
     lemonade = pulp.LpVariable('lemonade', lowBound=0, cat='Integer')
