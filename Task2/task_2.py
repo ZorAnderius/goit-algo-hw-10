@@ -4,7 +4,7 @@ from scipy_func import scipy_integer
 from entry_data import boards, entry_func, function_desc
 from draw_plot import draw_plot
 
-def task_2():
+def task_2() -> None:
     draw_plot(entry_func, boards, function_desc)
     num_points_small = 1_000
     num_points_medium = 1_000_000
